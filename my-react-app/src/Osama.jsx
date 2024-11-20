@@ -19,7 +19,7 @@ const addCounter = () => {
   }
     return (
       <>
-      <h1>Osama Zafar</h1>
+      <h1 className="text-red-700">Osama Zafar</h1>
       <h1>Counuter : {counter}</h1>
       <button onClick={addCounter}>Add Counter </button>
       <button onClick={subtractCounter}>Subtract Counter </button>
