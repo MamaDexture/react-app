@@ -1,6 +1,7 @@
 
 import Osama from "./Osama.jsx";
 import Card from "./Card.jsx";
+import BGchanger from "./BGchanger.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Card name="Laiba " des="Doctor" />
     <Card name="Ali Haider" des="Software Engineer" />
     </div>
+    <BGchanger/>
 
 
     </>
